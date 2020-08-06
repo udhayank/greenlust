@@ -1,0 +1,47 @@
+.abtus-txt{
+  color:rgb(89,89,89);
+  text-indent: 50px;
+}
+.ppl-heading{
+text-align:center;
+color: rgb(89,89,89);
+letter-spacing: 2px;
+font-weight: bold;
+font-size: 2em;
+}
+.block-container{
+  display:block;
+  width:20%;
+  margin:2%;
+  margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon-pack{
+  width:40%;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name-title{
+  text-align:center;
+  color: rgb(89,89,89);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px 0 0 0;
+}
+.designation-txt{
+  text-align:center;
+  color: rgb(89,89,89);
+  font-size: 1em;
+  padding: 5px;
+}
+.social-icon{
+  display: inline-block;
+}
+
+.img-profile{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}

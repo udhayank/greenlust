@@ -1,0 +1,58 @@
+/* sukoon CAFE */
+
+#sukoon-cafe {
+  padding: 40px 0;
+}
+#sukoon-cafe h1 {
+  padding: 0 5% 20px 5%;
+  color: #444;
+}
+
+
+#menu {
+  padding: 40px 10%;
+}
+#menu h2 {
+  font-size: 2.5rem;
+  color: #444;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.menu-item {
+
+
+
+}
+.menu-img {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.menu-img img {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.menu-title {
+  width: 100%;
+  padding: 10px 10%;
+  /* display: flex; */
+  justify-content: space-between;
+
+}
+.menu-title p {
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  font-size: 1.2rem;
+}
+.menu-description {
+  padding: 0 10%;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+/* .menu-price {
+  padding-left: 20px;
+  font-weight: bold;
+  color: red;
+} */
