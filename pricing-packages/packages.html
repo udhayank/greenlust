@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Best Pricing Packages</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="./packagestyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+      <a class="navbar-brand logo" href=""><img src="/lib/images/logo.jpeg" alt=""></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/about-us">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sukoon-cafe">SUKOON CAFE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/campsite-rooms">CAMPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pricing-packages">PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact-us">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-cta-btn" href="https://wa.me/message/SCPPFYF5YICMK1" target="_blank">BOOK NOW</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="form-elements">
+      <div class="dd">
+        <div class="srt-txt"> Select Room Type </div>
+        <select class="rtype" id="select-package" onchange="changePrice(this);"  name="rtype">
+          <option value="alphine">Alphine Camp</option>
+          <option value="luxury">Luxury Swizz Camp</option>
+        </select>
+      </div>
+
+      <div class="btn-cover">
+        <a href="https://wa.me/message/SCPPFYF5YICMK1">
+        <button class="btn-booknow" type="button" name="button">
+          <div class="wplogo">
+            <img src="./whatsapp.svg" width=100% />
+          </div>
+          <div class="btn-txt"> Book Now
+          </div>
+        </button></a>
+      </div>
+    </div>
+<div class="all">
+
+
+  <!--European-->
+      <div class="pop">
+        MOST POPULAR
+      </div>
+  <div class="package">
+    <div class="p-card">
+      <div class="flag">
+        European
+      </div>
+      <div class="price" id="price-ep">
+        ₹3990
+      </div>
+      <div class="txt">
+        /Night /Guest
+      </div>
+      <div class="tt">
+          <div class="img-div">
+          <img src="./tick.svg" alt="-" width=20px height=auto />
+          </div>
+          <div class="service">
+            Rooms
+          </div>
+      </div>
+    </div>
+
+  <!--Continental plan-->
+  <div class="p-card">
+    <div class="flag">
+      Continental
+    </div>
+    <div class="price" id="price-cp">
+      ₹4190
+    </div>
+    <div class="txt">
+      /Night /Guest
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Rooms
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px />
+        </div>
+        <div class="service">
+          Breakfast
+        </div>
+    </div>
+  </div>
+
+  <!--Modified American plan-->
+  <div class="pop-sm">
+    MOST POPULAR
+  </div>
+  <div class="cardp">
+    <div class="flag">
+      Modified American
+    </div>
+    <div class="price" id="price-map">
+      ₹4490
+    </div>
+    <div class="txt">
+      /Night /Guest
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Rooms
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Breakfast
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Lunch/ Dinner
+        </div>
+    </div>
+  </div>
+
+  <!--American plan-->
+  <div class="p-card">
+    <div class="flag">
+      American
+    </div>
+    <div class="price" id="price-ap">
+      ₹4790
+    </div>
+    <div class="txt">
+      /Night /Guest
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Rooms
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Breakfast
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Lunch
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Dinner
+        </div>
+    </div>
+  </div>
+
+  <!--Jungle plan-->
+  <div class="p-card">
+    <div class="flag">
+      Jungle
+    </div>
+    <div class="price" id="price-jp">
+      ₹4990
+    </div>
+    <div class="txt">
+      /Night /Guest
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Rooms
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Breakfast
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Lunch
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          Dinner
+        </div>
+    </div>
+    <div class="tt">
+        <div class="img-div">
+        <img src="./tick.svg" alt="-" width=20px height=auto />
+        </div>
+        <div class="service">
+          High Tea
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col">
+      <h3>GREENLUST</h3>
+      <ul>
+        <li><a href="/about-us">About Us</a></li>
+        <li><a href="/sukoon-cafe">Sukoon Cafe</a></li>
+        <li><a href="/campsite-rooms">Camps</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/pricing-packages">Packages</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-md-4">
+
+    </div>
+
+    <div class="col-lg-3 col-md-4 footer-connect">
+      <h3>CONNECT</h3>
+      <p><a href="https://maps.app.goo.gl/XQ3HenydooTRxJNf7">Greenlust Camps & Resorts, <br> Gram Bhalyuti,<br> Jeolikote, Nainitaal,<br> Uttrakhand - 263127</a></p>
+      <p><a href="mailto:greenlustcamps@gmail.com"> greenlustcamps@gmail.com</a></p>
+      <p><a href="tel:+917017746217">(+91) 7017746217</a></p>
+      <p>© 2020 Greenlust Camps & Resort</p>
+    </div>
+
+  </div>
+</footer>
+
+<div class="smartoreach">
+  <a href="https://wa.me/message/U5UHC6CSKZ7HN1">
+  <h6>Powered by SmartO'Reach <br><em>(Digital Marketing Company)</em> </h6>
+  <h6>Click here to WhatsApp <span style="color:rgb(1,66,130); font-weight:bold;">SmartO'Reach</span> <br><em>(Digital Marketing Company)</em></h6>
+  <p><span><a href=""><img style="width:20px;" src="/lib/images/phone-white.svg" alt=""> </a> </span> <a href="tel:+919600697139">+91 9600697139</a></p>
+  <p><span><a href="https://wa.me/message/U5UHC6CSKZ7HN1"><img src="/lib/images/whatsapp.svg" alt=""> </a> </span> <a href="https://wa.me/message/U5UHC6CSKZ7HN1">+91 9344352513</a></p>
+  </a>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="/js/packages.js" charset="utf-8"></script>
+</body>
+</html>

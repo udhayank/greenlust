@@ -1,0 +1,265 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: calibri;
+}
+.all{
+  padding:60px 8%;
+}
+.srt-txt{
+  color:rgb(89,89,89);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.form-elements{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  padding: 10px 8%;
+  padding-top: 60px;
+
+  margin-top: 70px;
+}
+.rtype{
+background-color: white;
+color:rgb(89,89,89);
+font-weight: bold;
+padding: 5px;
+border-radius: 5px;
+border: 0;
+background-color: white;
+box-shadow: 0 0 0 0.5px rgba(210, 210, 210, 1);
+}
+
+.wplogo{
+  width:28px;
+  display: flex;
+  padding: 2px;
+}
+.btn-txt{
+  padding:2.8px 0 2.8px 5px;
+}
+
+.btn-booknow{
+  background-color: white;
+  /* width:110px; */
+  /* height:30px; */
+  border-radius: 50px;
+  box-shadow: 0 0 0 0.5px rgba(210, 210, 210, 1);
+  border-width: 0;
+  padding: 0 20px;
+  color: rgb(89,89,89);
+  font-weight: bold;
+  margin-top: auto;
+  margin-left:20px;
+  display: flex;
+}
+.btn-booknow:hover{
+  box-shadow: 0 0 10px 2px rgba(210, 210, 210, 1);
+  /* border: 1px solid #444; */
+  padding: 0 20px;
+  color:rgb(23, 30, 31);
+  font-weight: bold;
+  margin-top: auto;
+  margin-left:20px;
+  display: flex;
+}
+
+.btn-cover{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: auto;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.pop{
+  color:rgb(23, 30, 31);
+  width:calc(20% - 50px);
+  font-weight:bolder;
+  background-color: rgb(52, 224, 161);
+  border-radius: 100px;
+  border: 0;
+  padding: 5px 0;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  margin-left: 55%;
+  margin-bottom: 10px;
+  margin-top: 160px;
+}
+.pop-sm {
+  color:rgb(23, 30, 31);
+  width:100%;
+  font-weight:bolder;
+  background-color: rgb(52, 224, 161);
+  border-radius: 100px;
+  border: 0;
+  padding: 5px 0;
+  font-size: 1rem;
+  text-align: center;
+  margin: auto;
+  display: none;
+  margin-top: 10px;
+}
+.package{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 1px;
+  /* margin-top: 40px; */
+}
+@media (max-width:768px) {
+  .package{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 5px;
+  }
+  .pop {
+    display: none;
+  }
+  .pop-sm {
+    display: block;
+  }
+  .form-elements{
+    padding: 10px 5%;
+    padding-top: 80px;
+    margin-top: 50px;
+
+  }
+}
+.p-card{
+  height: auto;
+  width:100%;
+  margin:1px;
+  margin-top: 3px;
+  background-color: rgb(242, 242, 242);
+  border-color: rgb(217, 217, 217);
+  padding: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+
+.cardp{
+  z-index: 1;
+  height: auto;
+  margin-left: 1px;
+  width:100%;
+  background-color: white;
+  border-color: rgb(217, 217, 217);
+  padding: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px 1px rgb(0,0,0,0.1);
+  position:relative;
+
+}
+.cardp:hover{
+  z-index: 1;
+  height: auto;
+  /* margin: -3px; */
+  width:100%;
+  background-color: white;
+  border-color: rgb(217, 217, 217);
+  padding-top: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 20px 4px rgb(0,0,0,0.1);
+}
+
+.flag{
+  width: auto;
+  background-color: rgb(0,138,118);
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 2px rgb(210,210,210);
+}
+
+.price{
+  font-size: 2em;
+  color: rgb(89, 89, 89);
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 3px 0;
+}
+
+.txt{
+  text-align: center;
+  font-size: 0.9em;
+  color: rgb(89, 89, 89);
+  padding: 5px 0 20px 0;
+}
+.tt{
+  width:auto;
+  display: flex;
+}
+.extra-bed {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+.tt-space {
+  height: 10px;
+}
+.extra-bed img {
+  object-fit: contain;
+}
+
+.img-div{
+  display: flex;
+  margin-left: 10%;
+
+}
+
+
+.service{
+  font-size: 0.9em;
+  color: rgb(89, 89, 89);
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  padding: 0 10px;
+}
+ #select-date {
+  border: 1px solid #ddd;
+ border-radius: 5px;
+ background-color: #fff;
+ padding: 2px 0;
+ }
+ .date-selector {
+   margin-left: 10px;
+ }
+ /* .form-elements {
+   position: relative;
+ } */
+ @media (max-width:768px) {
+#book-now {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+}
+.container {
+  max-width: 1200px;
+}

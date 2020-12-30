@@ -1,0 +1,10 @@
+#privacy-policy {
+  padding: 40px 8%;
+}
+
+#privacy-policy * {
+  color: #444;
+}
+#privacy-policy h2 {
+  font-size: 1.5rem;
+}

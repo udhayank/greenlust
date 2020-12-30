@@ -46,3 +46,16 @@ if ($('.smart-scroll').length > 0) { // check if element exists
     oeButtonLeft.onclick = function () {
       document.getElementById('oe-scroll-container').scrollLeft -= 280;
     };
+
+
+    const width = document.getElementById('customer-scroll-container').offsetWidth;
+
+    const crButtonRight = document.getElementById('customer-scroll-next');
+    const crButtonLeft = document.getElementById('customer-scroll-prev');
+
+    crButtonRight.onclick = function () {
+      document.getElementById('customer-scroll-container').scrollLeft += (width - 15);
+    };
+    crButtonLeft.onclick = function () {
+      document.getElementById('customer-scroll-container').scrollLeft -= (width - 15);
+    };

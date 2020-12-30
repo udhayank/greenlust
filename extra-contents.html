@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+
+      .cr-card {
+        padding: 10px 5%;
+        display: flex;
+        /* grid-template-columns: 1fr 4fr;
+        grid-template-areas:
+          "cr-img cr-review"; */
+        justify-content: center;
+        align-items: center;
+      }
+      .cr-img {
+        grid-area: grid-img;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+      }
+      .cr-img img {
+        width: 100%;
+        object-fit: contain;
+        overflow: hidden;
+
+      }
+      .cr-review {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 50px;
+        align-items: end;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ddd;
+        position:relative;
+        margin-left: 20px;
+
+      }
+      .cr-review::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid #ddd;
+        border-top: 10px solid #ddd;
+        border-bottom: 10px solid transparent;
+        left: -20px;
+        bottom: 20px;
+      }
+      .cr-text p{
+        margin: auto;
+        align-self: center;
+      }
+      .cr-brand {
+        /* height: 50px; */
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+      }
+      .cr-logo {
+        width: 30%;
+
+      }
+      .cr-brand img {
+        width: 100px;
+        object-fit: contain;
+        overflow: hidden;
+
+
+      }
+      .cr-brand p {
+        display: inline-block;
+        font-weight: bold;
+      }
+
+
+    </style>
+  </head>
+
+
+  <body>
+  <!-- what our customer says bubble -->
+    <div class="row ">
+
+      <div class="col-lg-6 cr-card">
+        <div class="cr-img">
+          <img src="/lib/images/person.png" alt="">
+        </div>
+        <div class="cr-review">
+          <div class="cr-text">
+            <p>It is the most peaceful place one can find in Nainital. Love you all People.</p>
+          </div>
+          <div class="cr-brand">
+            <div class="cr-logo"><img src="/lib/images/trip-advisor.png" alt=""> </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 cr-card">
+        <div class="cr-img">
+          <img src="/lib/images/person.png" alt="">
+        </div>
+        <div class="cr-review">
+          <div class="cr-text">
+            <p>It is the most peaceful place one can find in Nainital. Love you all People.</p>
+          </div>
+          <div class="cr-brand">
+            <span class="cr-logo"><img src="/lib/images/booking-dot-com.png" alt=""> </span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

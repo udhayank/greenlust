@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GreenLust</title>
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -14,7 +21,7 @@
 
   <nav class="navbar smart-scroll navbar-expand-lg navbar-light">
 
-    <a class="navbar-brand" href="">GreenLust</a>
+    <a class="navbar-brand logo" href="/"><img src="/lib/images/logo.jpeg" alt=""></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
       <span class="navbar-toggler-icon"></span>
@@ -24,25 +31,28 @@
 
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#footer">HOME</a>
+          <a class="nav-link" href="/">HOME</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#pricing">ABOUT US</a>
+            <a class="nav-link" href="/about-us">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cta">SUKOON CAFE</a>
+          <a class="nav-link" href="/sukoon-cafe">SUKOON CAFE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cta">CAMPS</a>
+          <a class="nav-link" href="/campsite-rooms">CAMPS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cta">GALLERY</a>
+          <a class="nav-link" href="/gallery">GALLERY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cta">PACKAGES</a>
+          <a class="nav-link" href="/pricing-packages">PACKAGES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cta">CONTACT US</a>
+          <a class="nav-link" href="/contact-us">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-cta-btn" href="https://wa.me/message/SCPPFYF5YICMK1" target="_blank">BOOK NOW</a>
         </li>
       </ul>
 
@@ -60,20 +70,23 @@
     <div class="carousel-item active">
       <div class="carousel-black"></div>
       <h2 class="carousel-text">Place Where Nature & Quality Meets</h2>
-      <img class="d-block w-100" src="/lib/images/carosel-img-1.png" alt="First slide">
-      <button class="btn btn-outline-primary carousel-btn" type="button" name="button">Experience Now</button>
+      <img class="d-block " src="/lib/images/carousel-img-1.jpg" alt="First slide">
+      <a href="https://wa.me/message/SCPPFYF5YICMK1" target="_blank">
+      <button class="btn btn-outline-primary carousel-btn" >Book Now</button></a>
     </div>
     <div class="carousel-item">
       <div class="carousel-black"></div>
-      <h2 class="carousel-text">Place Where Nature & Quality Meets</h2>
-      <img class="d-block w-100" src="/lib/images/carosel-img-1.png" alt="First slide">
-      <button class="btn btn-outline-primary carousel-btn" type="button" name="button">Experience Now</button>
+      <h2 class="carousel-text">Words have Limits, Experience Doesn't</h2>
+      <img class="d-block " src="/lib/images/carousel-img-2.jpg" alt="First slide">
+      <a href="https://maps.app.goo.gl/XQ3HenydooTRxJNf7" target="_blank">
+      <button class="btn btn-outline-primary carousel-btn" >Get Direction</button></a>
     </div>
     <div class="carousel-item">
-      <div class="carousel-black"></div>
-      <h2 class="carousel-text">Place Where Nature & Quality Meets</h2>
-      <img class="d-block w-100" src="/lib/images/carosel-img-1.png" alt="First slide">
-      <button class="btn btn-outline-primary carousel-btn" type="button" name="button">Experience Now</button>
+      <div class="carousel-black-last"></div>
+      <h2 class="carousel-text">We value Customer-Centric Approach & Trust</h2>
+      <img class="d-block " src="/lib/images/carousel-img-3.jpg" alt="First slide">
+      <a href="/contact-us">
+      <button class="btn btn-outline-primary carousel-btn" type="button" name="button">Get in Touch</button></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -100,7 +113,40 @@
         <div class="why-container">
           <div class="why-card">
             <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
+              <img src="/lib/images/why-icon-1.svg" alt="">
+            </div>
+            <div class="why-card-title">
+              <h3>Safe & Secure</h3>
+            </div>
+            <div class="why-card-description">
+              <p>Safety First! We care about your safety and health. Our place is like your home, we take care of you & your beloved ones. Take care of your belongings like what you do in your home. Enjoy the freedom of safety.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-card-icon">
+              <img src="/lib/images/why-icon-2.svg" alt="">
+            </div>
+            <div class="why-card-title">
+              <h3>COVID free</h3>
+            </div>
+            <div class="why-card-description">
+              <p>Our places will be clean and hygiene all time. However, we do provide sanitizer and temperature check to ensure we keep people COVID free.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-card-icon">
+              <img src="/lib/images/why-icon-3.svg" alt="">
+            </div>
+            <div class="why-card-title">
+              <h3>Free internet</h3>
+            </div>
+            <div class="why-card-description">
+              <p>No more worries on getting signal and internet connection. We provide you free Wifi and help you connect to the digital world from our place.</p>
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-card-icon">
+              <img src="/lib/images/why-icon-4.svg" alt="">
             </div>
             <div class="why-card-title">
               <h3>Quality Service</h3>
@@ -111,57 +157,24 @@
           </div>
           <div class="why-card">
             <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
+              <img src="/lib/images/why-icon-5.svg" alt="">
             </div>
             <div class="why-card-title">
-              <h3>Quality Service</h3>
+              <h3>Amidst Nature</h3>
             </div>
             <div class="why-card-description">
-              <p>Best service is our Unique Value we provide which can’t be expressed in words. Just Experience!</p>
+              <p>Our place is surrounded by clean environments like hills, lakes, clean air, greeneries, birds, and more. Great place to see grass green and sky blue horizon. Just live your moments with a friendly nature.</p>
             </div>
           </div>
           <div class="why-card">
             <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
+              <img src="/lib/images/why-icon-6.svg" alt="">
             </div>
             <div class="why-card-title">
-              <h3>Quality Service</h3>
+              <h3>Adventure activities</h3>
             </div>
             <div class="why-card-description">
-              <p>Best service is our Unique Value we provide which can’t be expressed in words. Just Experience!</p>
-            </div>
-          </div>
-          <div class="why-card">
-            <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
-            </div>
-            <div class="why-card-title">
-              <h3>Quality Service</h3>
-            </div>
-            <div class="why-card-description">
-              <p>Best service is our Unique Value we provide which can’t be expressed in words. Just Experience!</p>
-            </div>
-          </div>
-          <div class="why-card">
-            <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
-            </div>
-            <div class="why-card-title">
-              <h3>Quality Service</h3>
-            </div>
-            <div class="why-card-description">
-              <p>Best service is our Unique Value we provide which can’t be expressed in words. Just Experience!</p>
-            </div>
-          </div>
-          <div class="why-card">
-            <div class="why-card-icon">
-              <img src="/lib/images/why-icon-1.png" alt="">
-            </div>
-            <div class="why-card-title">
-              <h3>Quality Service</h3>
-            </div>
-            <div class="why-card-description">
-              <p>Best service is our Unique Value we provide which can’t be expressed in words. Just Experience!</p>
+              <p>If you are an adventure junkie at heart, this is a great place for you to have an enjoyable safe adventure. Just pump it up!</p>
             </div>
           </div>
         </div>
@@ -190,16 +203,20 @@
           <h3>Cycling</h3>
         </div>
         <div class="things-to-do-card">
-          <img src="/lib/images/things-to-do-1.jpg" alt="Cycling">
-          <h3>Cycling</h3>
+          <img src="/lib/images/things-to-do-2.jpg" alt="Cycling">
+          <h3>Trecking</h3>
         </div>
         <div class="things-to-do-card">
-          <img src="/lib/images/things-to-do-1.jpg" alt="Cycling">
-          <h3>Cycling</h3>
+          <img src="/lib/images/things-to-do-3.jpg" alt="Cycling">
+          <h3>Bird Watching</h3>
         </div>
         <div class="things-to-do-card">
-          <img src="/lib/images/things-to-do-1.jpg" alt="Cycling">
-          <h3>Cycling</h3>
+          <img src="/lib/images/things-to-do-4.jpg" alt="Cycling">
+          <h3>Camp Fire</h3>
+        </div>
+        <div class="things-to-do-card">
+          <img src="/lib/images/things-to-do-5.jpg" alt="Cycling">
+          <h3>Barbeque</h3>
         </div>
       </div>
       <div class="things-to-do-next" id="things-to-do-next">
@@ -221,58 +238,132 @@
         </span>
       </div>
       <div class="why-scroll-container" id="oe-scroll-container">
-        <div class="why-container">
+        <div class="oe-container">
           <div class="oe-card">
             <div class="oe-card-img">
               <img src="/lib/images/oe-1.jpg" alt="">
             </div>
             <div class="oe-card-title">
-              <h3>Paragliding Flight</h3>
+              <h3>Naini Lake</h3>
             </div>
+            <a href="https://www.google.co.in/maps/place/Nainital+Lake/@29.3855747,79.454825,16z/data=!3m1!4b1!4m5!3m4!1s0x39a0a1ee281d845f:0xf4678bc5707d1182!8m2!3d29.3868622!4d79.459841" target="_blank">
             <div class="oe-direction-btn">
               <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""> </span>
               <span>Get Directions</span>
-            </div>
-            <p>2.5km</p>
+            </div></a>
+            <p>19.7km</p>
           </div>
           <div class="oe-card">
             <div class="oe-card-img">
-              <img src="/lib/images/oe-1.jpg" alt="">
+              <img src="/lib/images/oe-2.jpeg" alt="">
             </div>
             <div class="oe-card-title">
-              <h3>Paragliding Flight</h3>
+              <h3>Nainital Zoo</h3>
             </div>
+            <a href="https://www.google.com/maps/place/Nainital+Zoo+Ticket+Counter/@29.3804799,79.4660889,17z/data=!4m8!1m2!2m1!1sNainital+Zoo!3m4!1s0x39a0a1f852262167:0x555a6d25258c5214!8m2!3d29.3801978!4d79.467912" target="_blank">
             <div class="oe-direction-btn">
               <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
               <span>Get Directions</span>
-            </div>
-            <p>2.5km</p>
+            </div></a>
+            <p>20.3km</p>
           </div>
           <div class="oe-card">
             <div class="oe-card-img">
-              <img src="/lib/images/oe-1.jpg" alt="">
+              <img src="/lib/images/oe-3.jpg" alt="">
             </div>
             <div class="oe-card-title">
-              <h3>Paragliding Flight</h3>
+              <h3>Ropeway Fun Park</h3>
             </div>
+            <a href="https://www.google.co.in/maps/place/Ropeway+Fun+Park/@29.3927222,79.4529494,17z/data=!3m1!4b1!4m5!3m4!1s0x39a0a1eccbaff7e5:0xbc90ba25c518bfd0!8m2!3d29.3927222!4d79.4551381" target="_blank">
             <div class="oe-direction-btn">
               <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
               <span>Get Directions</span>
-            </div>
-            <p>2.5km</p>
+            </div></a>
+            <p>20.6km</p>
           </div>
           <div class="oe-card">
             <div class="oe-card-img">
-              <img src="/lib/images/oe-1.jpg" alt="">
+              <img src="/lib/images/oe-4.jpg" alt="">
             </div>
             <div class="oe-card-title">
-              <h3>Paragliding Flight</h3>
+              <h3>Snow View Point</h3>
             </div>
+            <a href="https://www.google.co.in/maps/place/Snow+View+point/@29.3950101,79.4592512,17z/data=!3m1!4b1!4m5!3m4!1s0x39a0a18d188bffd7:0xc8998481de24e06d!8m2!3d29.3949263!4d79.4614672" target="_blank">
             <div class="oe-direction-btn">
               <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
               <span>Get Directions</span>
+            </div></a>
+            <p>21.8km</p>
+          </div>
+          <div class="oe-card">
+            <div class="oe-card-img">
+              <img src="/lib/images/oe-5.jpg" alt="">
             </div>
-            <p>2.5km</p>
+            <div class="oe-card-title">
+              <h3>Eco Cave Garden</h3>
+            </div>
+            <a href="https://www.google.co.in/maps/place/Eco+Cave+Garden+Kmvn/@29.3921047,79.4430553,17z/data=!4m5!3m4!1s0x39a0a1b8f1198a5d:0xe83eb85ba8c14841!8m2!3d29.3921047!4d79.445244" target="_blank">
+            <div class="oe-direction-btn">
+              <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
+              <span>Get Directions</span>
+            </div></a>
+            <p>22.2km</p>
+          </div>
+          <div class="oe-card">
+            <div class="oe-card-img">
+              <img src="/lib/images/oe-6.jpg" alt="">
+            </div>
+            <div class="oe-card-title">
+              <h3>Naina Peak</h3>
+            </div>
+            <a href="https://www.google.co.in/maps/place/Naina+Peak/@29.4035517,79.4328115,15z/data=!3m1!4b1!4m5!3m4!1s0x39a0a1bb4e4368c1:0xda671540217b2ca3!8m2!3d29.4035524!4d79.4415663" target="_blank">
+            <div class="oe-direction-btn">
+              <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
+              <span>Get Directions</span>
+            </div></a>
+            <p>29km</p>
+          </div>
+          <div class="oe-card">
+            <div class="oe-card-img">
+              <img src="/lib/images/oe-7.jpg" alt="">
+            </div>
+            <div class="oe-card-title">
+              <h3>Bhimtal</h3>
+            </div>
+            <a href="https://www.google.com/maps/place/Bhimtal,+Uttarakhand+263136/@29.3489227,79.5360265,14z/data=!3m1!4b1!4m5!3m4!1s0x39a098214690ff0d:0x3adc3244429741dc!8m2!3d29.346082!4d79.5519144" target="_blank">
+            <div class="oe-direction-btn">
+              <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
+              <span>Get Directions</span>
+            </div></a>
+            <p>31.3km</p>
+          </div>
+          <div class="oe-card">
+            <div class="oe-card-img">
+              <img src="/lib/images/oe-8.jpg" alt="">
+            </div>
+            <div class="oe-card-title">
+              <h3>Paragliding</h3>
+            </div>
+            <a href="https://www.google.com/maps/place/Sky+Bird+Adventures+-+Paragliding/@20.1822355,81.9086857,5z/data=!4m8!1m2!2m1!1sparagliding+nainital!3m4!1s0x39a0979ba548baa7:0x3ba0900fc62c7576!8m2!3d29.3411617!4d79.5751415?hl=en" target="_blank">
+            <div class="oe-direction-btn">
+              <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
+              <span>Get Directions</span>
+            </div></a>
+            <p>32.1km</p>
+          </div>
+          <div class="oe-card">
+            <div class="oe-card-img">
+              <img src="/lib/images/oe-9.jpg" alt="">
+            </div>
+            <div class="oe-card-title">
+              <h3>Sattaal</h3>
+            </div>
+            <a href="https://www.google.com/maps/place/Sattal/@29.2099984,79.3024904,14z/data=!3m1!4b1!4m5!3m4!1s0x390a771a7598dcef:0x7224073e45c206de!8m2!3d29.21!4d79.32" target="_blank">
+            <div class="oe-direction-btn">
+              <span class="oe-direction-btn-icon"><img src="/lib/images/google-maps.svg" alt=""></span>
+              <span>Get Directions</span>
+            </div></a>
+            <p>46.9km</p>
           </div>
         </div>
 
@@ -335,37 +426,37 @@
     <div class="row">
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <img src="/lib/images/menu-img-1.jpg" alt="menu">
+          <img src="/lib/images/cafe/menu-momos.jpg" alt="">
         </div>
-        <h3>Hot N Fresh Coffee</h3>
+        <h3>Momos</h3>
       </div>
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <img src="/lib/images/menu-img-1.jpg" alt="menu">
+          <img src="/lib/images/cafe/menu-pulao.jpeg" alt="">
         </div>
-        <h3>Hot N Fresh Coffee</h3>
+        <h3>Veg Pulao</h3>
       </div>
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <img src="/lib/images/menu-img-1.jpg" alt="menu">
+          <img src="/lib/images/cafe/menu-chicken-biryani.jpg" alt="">
         </div>
-        <h3>Hot N Fresh Coffee</h3>
+        <h3>Chicken Biryani</h3>
       </div>
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <img src="/lib/images/menu-img-1.jpg" alt="menu">
+          <img src="/lib/images/cafe/menu-naan.jpg" alt="">
         </div>
-        <h3>Hot N Fresh Coffee</h3>
+        <h3>Butter Naan</h3>
       </div>
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <img src="/lib/images/menu-img-1.jpg" alt="menu">
+          <img src="/lib/images/cafe/menu-chowmein.jpg" alt="">
         </div>
-        <h3>Hot N Fresh Coffee</h3>
+        <h3>Chow Mein</h3>
       </div>
       <div class="col-lg-2 col-md-4 col-6 cafe-card">
         <div class="cafe-img">
-          <span><img src="/lib/images/plus-white.svg" alt="+"> </span>
+          <span><a href="/sukoon-cafe"><img src="/lib/images/plus-white.svg" alt="+"> </a></span>
         </div>
         <h3>See More</h3>
       </div>
@@ -376,42 +467,80 @@
     <h2>Who Love our Places</h2>
 
     <div class="row">
-      <div class="col-lg-4 col-6 wlop-card">
-        <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+          <div class="wlop-img">
+            <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+          </div>
+          <h3>Youngsters</h3>
         </div>
-        <h3>Youngsters</h3>
       </div>
-      <div class="col-lg-4 col-6 wlop-card">
-        <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+          <div class="wlop-img">
+            <img src="/lib/images/wlop-img-2.jpg" alt="menu">
+          </div>
+          <h3>Riders</h3>
         </div>
-        <h3>Youngsters</h3>
       </div>
-      <div class="col-lg-4 col-6 wlop-card">
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
         <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+          <img src="/lib/images/wlop-img-3.jpg" alt="menu">
         </div>
-        <h3>Youngsters</h3>
+        <h3>Couples</h3>
       </div>
-      <div class="col-lg-4 col-6 wlop-card">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
         <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+          <img src="/lib/images/wlop-img-4.jpg" alt="menu">
         </div>
-        <h3>Youngsters</h3>
+        <h3>Adventure Lovers</h3>
       </div>
-      <div class="col-lg-4 col-6 wlop-card">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
         <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+          <img src="/lib/images/wlop-img-5.png" alt="menu">
         </div>
-        <h3>Youngsters</h3>
+        <h3>Photographers</h3>
       </div>
-      <div class="col-lg-4 col-6 wlop-card">
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
         <div class="wlop-img">
-          <img src="/lib/images/wlop-img-1.jpg" alt="menu">
+          <img src="/lib/images/wlop-img-6.jpg" alt="menu">
         </div>
-        <h3>Youngsters</h3>
+        <h3>Bird Lovers</h3>
       </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
+        <div class="wlop-img">
+          <img src="/lib/images/wlop-img-7.jpg" alt="menu">
+        </div>
+        <h3>Families</h3>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 wlop-card">
+        <div class="m-1 card-wrap">
+
+        <div class="wlop-img">
+          <img src="/lib/images/wlop-img-8.jpg" alt="menu">
+        </div>
+        <h3>Retired People</h3>
+      </div>
+      </div>
+
       </div>
     </div>
   </section>
@@ -419,46 +548,138 @@
   <section id="customer-review">
     <h2>What Our Customer Says</h2>
 
-    <div class="row ">
 
-      <div class="col-lg-6 cr-card">
-        <div class="cr-img">
-          <img src="/lib/images/person.png" alt="">
-        </div>
-        <div class="cr-review">
-          <div class="cr-text">
-            <p>It is the most peaceful place one can find in Nainital. Love you all People.</p>
-          </div>
-          <div class="cr-brand">
-            <div class="cr-logo"><img src="/lib/images/trip-advisor.png" alt=""> </div>
-            <p></p>
-          </div>
-        </div>
+
+    <div class="why-grid">
+      <div class="why-scroll-prev" id="customer-scroll-prev">
+        <span href="">
+          <img src="/lib/images/prev-white.svg" alt="<">
+        </span>
       </div>
+      <div class="why-scroll-container" id="customer-scroll-container">
+        <div class="why-container">
 
-      <div class="col-lg-6 cr-card">
-        <div class="cr-img">
-          <img src="/lib/images/person.png" alt="">
-        </div>
-        <div class="cr-review">
-          <div class="cr-text">
-            <p>It is the most peaceful place one can find in Nainital. Love you all People.</p>
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-1.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Sarthak Adlakha</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span> Pleasure with peace.. a true place to go on short weekend trips far from city rushes and polution. This resort is something everyone need after a full week of workload and work pressure.
+Hospitality, comfort and food is their USP. The resorts comes with 5 star facilty and is totally recomended from my side. A true value for money deal.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
           </div>
-          <div class="cr-brand">
-            <span class="cr-logo"><img src="/lib/images/booking-dot-com.png" alt=""> </span>
-            <span></span>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-2.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Sajid</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>Awesome surrounding & atmosphere. We loved being in the lap of nature. The management & entire staff for running this beautiful Green lust resort . I am happy that all who come with us for first time have also enjoyed. Resort was neat & clean. Food served was good. Staff service was excellent & well maintained surrounding.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
           </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-3.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Shivangi Puri</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span> Aaiye kuch din guzaariye greenlust camp mein!
+The facilities are great and the hosts work day and night to make ur visit  delightful.🥂<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-4.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Tanmay Singhal</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>If you want realistic experience of mountains life then surely connect with greenlust camps and resort and make memories for whole life. everyone will definitely enjoy the services provided by them.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <!-- <div class="customer-card">
+            <img src="/lib/images/customer-img-5.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Nadeem Arif</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>Wonderful place for Corporate leisure & adventure trip and for family. I had wonderful 2 nights stay at Greenlust Camps & Resort with my corporate client for a corporate adventure leisure trip. Beautiful accommodation with good interiors and clean bathroom. One can sit outside the room and enjoy the beautiful green garden & bright blue sky with silver clouds. Lush green lawns, good weather, rains all these made our stay more memorable. Resort organised a trekking for us which was a good experience for all the people. Added to this staffs are friendly and always ready to help and give services without any excuse. Entertainment in the evenings: guitar, songs, game of housie organised by the camp was awesome. Food spread was good and delicious. One must visit this wonderful place for its beauty, personalised service, delicious, friendly staff and lots of adventure games and activities. Thank you Greenlust. Looking forward to come to this place again n again.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div> -->
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-6.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Pooran Singh</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>"Greenlust" a place where u get a fine mixture of biodiversity  and peace  of mind with loads of sukoon while sitting under tree on bamboo chair enjoying sukoon cafe tea and cheeze garlic sandwich.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-7.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Hemraj Vikal</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>One of the best resort I have visited till nowThe location was absolutely perfect. The scenery was beautiful and it was a relieve to walk in such a quiet and peaceful environment. As soon as you come out of the resort.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-8.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Lokesh</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>Greenlust camps & resort its an amazing and peaceful place its located in jeolikot between the haldwani and nanital this place is so beautiful for spend your weekend for mind relaxation and you feel full of adventure there with nature.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-9.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Maysara</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>One of the best resort i have visited till now... The receptionist were really helpful and friendly 🥰 Great staff who knew how to serve the customers.. The room was well equipped and the service was excellent ❣️The environment scenery was beautiful and it was a relieve to walk in such a quite and peaceful environment ✌️ I must say the location of the resort is at best place of jeolicort.😍<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-10.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Shailaja Tewari</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>Beautiful view with amazing facility ... the best resort in uttrakhand along with peaceful ambience ..the food quality is really nice ..the best place with outdoor activities and you can't get bore anyway.. i just love it.<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <img src="/lib/images/customer-img-11.jpeg" alt="">
+            <div class="customer-card-content">
+              <h3>Salman</h3>
+              <p class="star-rating">★ ★ ★ ★ ★</p>
+              <p class="customer-review-text"><span><img src="/lib/images/open-quote.svg" alt=""> </span>The best place to hang out with friends along with the peaceful and beautiful view. You can enjoy with additional facility that you can't get in any other campsite. If you wanna enjoy and spend some good and quality time then this is best place ❤️<span><img src="/lib/images/close-quote.svg" alt=""> </span></p>
+            </div>
+          </div>
+
+
+
         </div>
+
       </div>
-
+      <div class="why-scroll-next" id="customer-scroll-next">
+        <span href="">
+          <img src="/lib/images/next-white.svg" alt=">">
+        </span>
+      </div>
     </div>
+
   </section>
 
   <section id="locate-us">
     <h2>Locate Us</h2>
     <div class="row ">
       <div class="col-lg-3 col-md-4 col-sm-6 locate-us-container">
-        <img src="/lib/images/google-maps-icon.svg" alt="">
+        <a href="https://maps.app.goo.gl/XQ3HenydooTRxJNf7" target="_blank">
+        <img src="/lib/images/google-maps-icon.svg" alt=""></a>
       </div>
 
     </div>
@@ -469,11 +690,12 @@
       <div class="col-lg-3 col-md-4 col">
         <h3>GREENLUST</h3>
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Sukoon Cafe</a></li>
-          <li><a href="#">Camps</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Packages</a></li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/sukoon-cafe">Sukoon Cafe</a></li>
+          <li><a href="/campsite-rooms">Camps</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/pricing-packages">Packages</a></li>
+          <li><a href="/privacy-policy" target="_blank">Privacy Policy</a></li>
         </ul>
       </div>
 
@@ -483,19 +705,26 @@
 
       <div class="col-lg-3 col-md-4 footer-connect">
         <h3>CONNECT</h3>
-        <p>Greenlust Camps & Resorts, <br> Gram Bhalyuti,<br> Jeolikote, Nainitaal,<br> Uttrakhand - 263127</p>
-        <p><a href="#"> mail.gmail.com</a></p>
-        <p><a href="#">+91 1234567890</a></p>
+        <p><a href="https://maps.app.goo.gl/XQ3HenydooTRxJNf7" target="_blank">Greenlust Camps & Resorts, <br> Gram Bhalyuti,<br> Jeolikote, Nainitaal,<br> Uttrakhand - 263127</a></p>
+        <p><a href="mailto:greenlustcamps@gmail.com"> greenlustcamps@gmail.com</a></p>
+        <p><a href="tel:+917017746217">(+91) 7017746217</a></p>
       </div>
 
     </div>
-    <div>
+    <div class="row justify-content-center">
       <p>© 2020 Greenlust Camps & Resort</p>
-      <h6>Powered by DigiMark</h3>
-      <p><a href="#">+91 7373203174</a></p>
+
     </div>
   </footer>
 
+  <div class="smartoreach">
+    <a href="https://wa.me/message/U5UHC6CSKZ7HN1" target="_blank">
+    <h6>Powered by SmartOreach <br><em>(Personalizerd Websites and Digital Marketing Company)</em> </h6>
+    <h6>Click here to WhatsApp <span style="color:rgb(1,66,130); font-weight:bold;">SmartOreach</span> <br><em>(Personalizerd Websites and Digital Marketing Company)</em></h6>
+    <p><span><a href=""><img style="width:20px;" src="/lib/images/phone-white.svg" alt=""> </a> </span> <a href="tel:+919600697139">+91 9600697139</a></p>
+    <p><span><a href="https://wa.me/message/U5UHC6CSKZ7HN1" target="_blank"><img src="/lib/images/whatsapp.svg" alt=""> </a> </span> <a href="https://wa.me/message/U5UHC6CSKZ7HN1" target="_blank">+91 9344352513</a></p>
+    </a>
+  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

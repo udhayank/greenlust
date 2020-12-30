@@ -1,0 +1,239 @@
+
+#about-us {
+  padding: 40px 8%;
+}
+#about-us h2 {
+  color: #444;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#about-us p {
+  color:#444;
+  text-indent: 30px;
+  text-align: justify;
+}
+#about-us h3 {
+  color:#444;
+  text-align: center;
+  padding: 20px 0;
+  color:#008A76;
+
+}
+#about-us h3 img {
+  width: 40px;
+  object-fit: contain;
+  padding: 0 10px;
+  margin-top: -15px;
+
+}
+/* #about-us h3 img:nth-last-of-type(2) {
+  width: 20px;
+  object-fit: contain;
+} */
+
+#values {
+  padding: 40px 8%;
+  min-height: 400px;
+  background-color: rgb(64,64,64);
+
+}
+.values-grid {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+
+.values-grid>img {
+  width:100px;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.values-title {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.values-title h2 {
+  width: 100%;
+  margin: auto;
+  font-size: 3.5rem;
+  vertical-align: middle;
+  color: white;
+  padding-left: 10%;
+}
+.values-right {
+  padding: 2% 10%;
+
+}
+.values-carousel {
+  position: relative;
+  background-color: white;
+  min-height: 420px;
+  min-width: 350px;
+  max-width: 350px;
+  padding: 20px;
+  margin: auto;
+  justify-self: center;
+}
+.values-carousel-item {
+  /* max-width: 200px; */
+}
+/* .values-carousel-item.active {
+  display: grid;
+  grid-template-rows: 50% 50%;
+
+
+} */
+
+/* courosel fade */
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: 1s ;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+/* .carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+} */
+/* carousel fade end */
+.values-carousel-img {
+  width: 100%;
+  /* height: 50%; */
+}
+.values-carousel-img img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+.values-carousel-text {
+  padding-top: 10px;
+  padding-left: 20px;
+  /* height: 50%; */
+}
+.values-carousel-text h3 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: rgb(89,89,89);
+}
+@media (max-width:768px) {
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+
+  }
+  .values-right {
+    padding: 0;
+  }
+  .values-carousel {
+    position: relative;
+    background-color: white;
+    min-height: 340px;
+    min-width: 280px;
+    max-width: 320px;
+    padding: 10px;
+    margin: auto;
+    justify-self: center;
+  }
+  .values-title {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-top:100px;
+    padding-bottom: 30px;
+  }
+  .values-title h2 {
+    font-size: 2.5rem;
+  }
+  .values-carousel-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .values-carousel-text h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
+#covid {
+  padding: 60px 8%;
+}
+#covid>h2 {
+  width: 100%;
+  text-align: center;
+  color: #444;
+
+
+}
+#covid>p {
+  width: 100%;
+  text-align: center;
+  color: #888;
+  /* color: #21D0B3; */
+  padding: 10px 20%;
+}
+
+.covid-card {
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin-top: 20px;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.covid-img {
+  width: 100%;
+  padding: 20%;
+}
+.covid-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.covid-text {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #463F8F;
+}
+.covid-text-title {
+  text-align: left;
+  padding:20px;
+  padding-top: 40px;
+  color: #463F8F;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+@media (max-width:576px) {
+  .covid-card {
+    padding: 0;
+    margin-top: 5px;
+    height: 95%;
+  }
+  .col-6 {
+    padding-left: 5px;
+    padding-right:5px;
+  }
+}

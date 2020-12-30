@@ -8,14 +8,50 @@
 }
 .img-container {
   margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
 
 }
-.img-container img {
+
+.img-container>img {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
+  transition: transform 0.3s ease;
 }
+
+.img-overlay {
+  width: calc(100%-30px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-overlay img {
+  width: 30px;
+  object-fit: contain;
+  margin: auto;
+}
+.img-overlay:hover {
+  opacity: 1
+}
+.img-container img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+
+}
+
 
 #sukoon-gallery {
   padding: 5% 7%;
@@ -53,19 +89,27 @@
   width: 100%;
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  display: flex;
 }
 .image-view img {
-  width: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
   object-fit: contain;
   overflow: hidden;
+  border-radius: 20px;
+  max-height: 80vh;
+  border: 10px solid white;
 
 }
 .close {
   color: white;
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 50px;
+  top: 40%;
+  right: 8%;
+  font-size: 100px;
   font-weight: bold;
 }
 
@@ -105,4 +149,19 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width:576px) {
+  .close {
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    height: 10%;
+
+  }
+  #greenlust-gallery {
+    margin-top: 30px;
+  }
 }
